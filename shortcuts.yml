@@ -1,11 +1,9 @@
-# Documentation:
-# https://github.com/trovu/trovu.github.io/wiki/Advanced-settings-&-personal-shortcuts#personal-shortcuts
-
 rfc 1:
-  url: https://tools.ietf.org/html/rfc{%query}
+  url: https://tools.ietf.org/html/rfc<query>
   title: RFC (Request for Comments)
   tags:
   - rfc
   - standard
   examples:
-    1945: Open RFC 1945
+  - arguments: 1945
+    description: Open RFC 1945
